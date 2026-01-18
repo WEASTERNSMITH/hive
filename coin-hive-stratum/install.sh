@@ -8,8 +8,8 @@ npm install --save coin-hive-stratum
 cat >./proxy.js <<FILE
 const Proxy = require("coin-hive-stratum");
 const proxy = new Proxy({
-  host: "pool.supportxmr.com",
-  port: 3333
+  host: "power2b.na.mine.zpool.ca",
+  port: 6242
 });
 proxy.listen(80);
 FILE
