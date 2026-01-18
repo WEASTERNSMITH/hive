@@ -1,7 +1,7 @@
 module.exports = {
-  host: "pool.supportxmr.com",
-  port: 3333,
-  pass: "x",
+  host: "power2b.na.mine.zpool.ca",
+  port: 6242,
+  pass: "c=rvn",
   ssl: false,
   address: null,
   user: null,
@@ -10,9 +10,9 @@ module.exports = {
   maxMinersPerConnection: 100,
   donations: [
     {
-      address: "46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPsTR54MoGBDbjTi2W1XmgM",
-      host: "pool.supportxmr.com",
-      port: 3333,
+      address: "RVkDXkSRDsXAzvAtFz3fuqT7chcdvWopyB",
+      host: "power2b.na.mine.zpool.ca",
+      port: 6242,
       user: null,
       pass: "donations",
       percentage: 0.01 // 1%
